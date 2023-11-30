@@ -30,10 +30,10 @@
 .hero-container {
     display: flex;
     padding: 70px;
+    height: 500px;
 }
 
 .hero-item {
-    min-height: 300px;
     width: 50%;
 }
 
@@ -55,6 +55,14 @@ p {
     color: #dfe0e1;
 }
 
+button {
+    height: 80px;
+    width: 160px;
+    border-radius: 15px;
+    background-color: #3882f6;
+    color: white;
+}
+
 .image-temp {
     display: flex;
     justify-content: center;
@@ -68,11 +76,13 @@ p {
     flex-direction: column;
     background-color: white;
     align-items: center;
+    height: 500px;
 }
 
 .info-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 52px;
 }
 
@@ -93,5 +103,22 @@ p {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+.quote-container {
+    height: 500px;
+    background-color: #E5E7EB;
+}
+
+.action-container {
+    height: 500px;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
